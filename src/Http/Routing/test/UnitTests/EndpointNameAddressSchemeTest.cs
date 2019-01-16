@@ -183,7 +183,7 @@ c
 Endpoints with endpoint name 'name2':
 e
 f
-", ex.Message);
+".Replace("\n", Environment.NewLine), ex.Message);
         }
 
         private EndpointNameAddressScheme CreateAddressScheme(params Endpoint[] endpoints)
