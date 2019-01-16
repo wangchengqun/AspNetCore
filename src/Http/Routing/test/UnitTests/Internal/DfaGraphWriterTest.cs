@@ -36,7 +36,7 @@ namespace Microsoft.AspNetCore.Routing.Internal
             Assert.Equal(@"digraph DFA {
 0 [label=""/""]
 }
-", writer.ToString());
+".Replace("\n", Environment.NewLine), writer.ToString());
         }
 
         [Fact]
@@ -60,7 +60,7 @@ namespace Microsoft.AspNetCore.Routing.Internal
             Assert.Equal(@"digraph DFA {
 0 [label=""/""]
 }
-", writer.ToString());
+".Replace("\n",Environment.NewLine), writer.ToString());
         }
 
         [Fact]
@@ -89,7 +89,7 @@ namespace Microsoft.AspNetCore.Routing.Internal
 2 -> 1 [label=""HTTP: *""]
 2 [label=""/""]
 }
-", sdf);
+".Replace("\n",Environment.NewLine), sdf);
         }
     }
 }
