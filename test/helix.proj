@@ -9,23 +9,23 @@
     </ReadLinesFromFile> -->
 
     <ItemGroup>
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Antiforgery\test\Microsoft.AspNetCore.Antiforgery.Test.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\AuthSamples\test\AuthSamples.FunctionalTests\AuthSamples.FunctionalTests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAD\test\FunctionalTests\Microsoft.AspNetCore.Authentication.AzureAD.FunctionalTests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAppServicesIntegration\test\Microsoft.AspNetCore.AzureAppServicesIntegration.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Abstractions\test\Microsoft.AspNetCore.DataProtection.Abstractions.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\AzureKeyVault\test\Microsoft.AspNetCore.DataProtection.AzureKeyVault.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\AzureStorage\test\Microsoft.AspNetCore.DataProtection.AzureStorage.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Cryptography.Internal\test\Microsoft.AspNetCore.Cryptography.Internal.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Cryptography.KeyDerivation\test\Microsoft.AspNetCore.Cryptography.KeyDerivation.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\DataProtection\test\Microsoft.AspNetCore.DataProtection.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Extensions\test\Microsoft.AspNetCore.DataProtection.Extensions.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\StackExchangeRedis\test\Microsoft.AspNetCore.DataProtection.StackExchangeRedis.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.FunctionalTests\Microsoft.AspNetCore.FunctionalTests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.Tests\Microsoft.AspNetCore.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Features\JsonPatch\test\Microsoft.AspNetCore.JsonPatch.Tests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Framework\test\Microsoft.AspNetCore.App.UnitTests.csproj" />" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\Hosting\test\Microsoft.AspNetCore.Hosting.Tests.csproj" />" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Antiforgery\test\Microsoft.AspNetCore.Antiforgery.Test.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\AuthSamples\test\AuthSamples.FunctionalTests\AuthSamples.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAD\test\FunctionalTests\Microsoft.AspNetCore.Authentication.AzureAD.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAppServicesIntegration\test\Microsoft.AspNetCore.AzureAppServicesIntegration.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Abstractions\test\Microsoft.AspNetCore.DataProtection.Abstractions.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\AzureKeyVault\test\Microsoft.AspNetCore.DataProtection.AzureKeyVault.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\AzureStorage\test\Microsoft.AspNetCore.DataProtection.AzureStorage.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Cryptography.Internal\test\Microsoft.AspNetCore.Cryptography.Internal.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Cryptography.KeyDerivation\test\Microsoft.AspNetCore.Cryptography.KeyDerivation.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\DataProtection\test\Microsoft.AspNetCore.DataProtection.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Extensions\test\Microsoft.AspNetCore.DataProtection.Extensions.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\StackExchangeRedis\test\Microsoft.AspNetCore.DataProtection.StackExchangeRedis.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.FunctionalTests\Microsoft.AspNetCore.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.Tests\Microsoft.AspNetCore.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Features\JsonPatch\test\Microsoft.AspNetCore.JsonPatch.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Framework\test\Microsoft.AspNetCore.App.UnitTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\Hosting\test\Microsoft.AspNetCore.Hosting.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\test\FunctionalTests\Microsoft.AspNetCore.Hosting.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\TestHost\test\Microsoft.AspNetCore.TestHost.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\WindowsServices\test\Microsoft.AspNetCore.Hosting.WindowsServices.Tests.csproj" />
