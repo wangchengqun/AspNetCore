@@ -59,7 +59,7 @@ namespace Microsoft.AspNetCore.Routing.Internal
             // Assert
             Assert.Equal(String.Join(Environment.NewLine, @"digraph DFA {",
 "0 [label=""/""]",
-@"}") + Environment.NewLine), writer.ToString());
+@"}") + Environment.NewLine, writer.ToString());
         }
 
         [Fact]
@@ -87,7 +87,7 @@ namespace Microsoft.AspNetCore.Routing.Internal
 @"2 -> 0 [label=""HTTP: GET""]",
 @"2 -> 1 [label=""HTTP: *""]",
 @"2 [label=""/""]",
-@"}") + Environment.NewLine), sdf);
+@"}") + Environment.NewLine, sdf);
         }
     }
 }
