@@ -58,7 +58,7 @@ namespace Microsoft.AspNetCore.Routing.Internal
 
             // Assert
             Assert.Equal(String.Join(Environment.NewLine, @"digraph DFA {",
-"0 [label=""/""]",
+@"0 [label=""/""]",
 @"}") + Environment.NewLine, writer.ToString());
         }
 
