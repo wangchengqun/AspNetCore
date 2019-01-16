@@ -10,7 +10,6 @@
 
     <ItemGroup>
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Antiforgery\test\Microsoft.AspNetCore.Antiforgery.Test.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\AuthSamples\test\AuthSamples.FunctionalTests\AuthSamples.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAD\test\FunctionalTests\Microsoft.AspNetCore.Authentication.AzureAD.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAppServicesIntegration\test\Microsoft.AspNetCore.AzureAppServicesIntegration.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Abstractions\test\Microsoft.AspNetCore.DataProtection.Abstractions.Tests.csproj" />
@@ -83,6 +82,9 @@
     -->    
     
     <!-- skipped (build errors needs investigation)
+
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\AuthSamples\test\AuthSamples.FunctionalTests\AuthSamples.FunctionalTests.csproj" />
+
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SiteExtensions\Microsoft.Web.Xdt.Extensions\tests\Microsoft.Web.Xdt.Extensions.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SiteExtensions\LoggingAggregate\test\Microsoft.AspNetCore.AzureAppServices.SiteExtension.Tests\Microsoft.AspNetCore.AzureAppServices.SiteExtension.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\clients\ts\FunctionalTests\FunctionalTests.csproj" />
