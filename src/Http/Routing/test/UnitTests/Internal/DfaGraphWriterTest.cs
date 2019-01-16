@@ -34,10 +34,9 @@ namespace Microsoft.AspNetCore.Routing.Internal
             graphWriter.Write(endpointsDataSource, writer);
 
             // Assert
-            Assert.Equal(@"digraph DFA {
-0 [label=""/""]
-}
-".Replace("\n", Environment.NewLine), writer.ToString());
+            Assert.Equal(String.Join(Environment.NewLine, @"digraph DFA {",
+@"0 [label=""/""]",
+"}") + Environment.NewLine, writer.ToString());
         }
 
         [Fact]
@@ -58,10 +57,9 @@ namespace Microsoft.AspNetCore.Routing.Internal
             graphWriter.Write(endpointsDataSource, writer);
 
             // Assert
-            Assert.Equal(@"digraph DFA {
-0 [label=""/""]
-}
-".Replace("\n",Environment.NewLine), writer.ToString());
+            Assert.Equal(String.Join(Environment.NewLine, @"digraph DFA {",
+"0 [label=""/""]",
+@"}") + Environment.NewLine), writer.ToString());
         }
 
         [Fact]
@@ -83,14 +81,13 @@ namespace Microsoft.AspNetCore.Routing.Internal
 
             // Assert
             var sdf = writer.ToString();
-            Assert.Equal(@"digraph DFA {
-0 [label=""/ HTTP: GET""]
-1 [label=""/ HTTP: *""]
-2 -> 0 [label=""HTTP: GET""]
-2 -> 1 [label=""HTTP: *""]
-2 [label=""/""]
-}
-".Replace("\n",Environment.NewLine), sdf);
+            Assert.Equal(String.Join(Environment.NewLine, @"digraph DFA {",
+@"0 [label=""/ HTTP: GET""]",
+@"1 [label=""/ HTTP: *""]",
+@"2 -> 0 [label=""HTTP: GET""]",
+@"2 -> 1 [label=""HTTP: *""]",
+@"2 [label=""/""]",
+@"}") + Environment.NewLine), sdf);
         }
     }
 }
