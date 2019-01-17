@@ -26,7 +26,7 @@ namespace Microsoft.DotNet.Watcher.Tools.Tests
             _tempDir = new TemporaryDirectory();
         }
 
-        [Fact]
+        [Fact(Skip = "https://github.com/aspnet/AspNetCore/issues/6768")]
         public async Task FindsCustomWatchItems()
         {
             _tempDir
