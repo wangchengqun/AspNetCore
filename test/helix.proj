@@ -1,7 +1,7 @@
 <Project DefaultTargets="Test">
 
   <!-- Version included until we get global.json generation to support this SDK. -->
-  <Sdk Name="Microsoft.DotNet.Helix.Sdk" Version="1.0.0-beta.19057.4" />
+  <Sdk Name="Microsoft.DotNet.Helix.Sdk" Version="1.0.0-beta.19066.3" />
 
   <Target Name="Gather" BeforeTargets="Test">
     <!-- <ReadLinesFromFile File="$(MSBuildThisFileDirectory)csprojs">
@@ -10,6 +10,9 @@
 
     <ItemGroup>
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Antiforgery\test\Microsoft.AspNetCore.Antiforgery.Test.csproj" />
+    </ItemGroup>
+
+    <!-- passing
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\AuthSamples\test\AuthSamples.FunctionalTests\AuthSamples.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAD\test\FunctionalTests\Microsoft.AspNetCore.Authentication.AzureAD.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAppServicesIntegration\test\Microsoft.AspNetCore.AzureAppServicesIntegration.Tests.csproj" />
@@ -100,10 +103,6 @@
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\dotnet-watch\test\dotnet-watch.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\FirstRunCertGenerator\test\Microsoft.AspNetCore.DeveloperCertificates.XPlat.Tests.csproj" />
 
-
-    </ItemGroup>
-
-    <!-- passing
     -->    
     
     <!-- skipped (needs investigation)
