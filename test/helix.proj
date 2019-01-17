@@ -13,9 +13,6 @@
     </ItemGroup>
 
     <!-- passing
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\AuthSamples\test\AuthSamples.FunctionalTests\AuthSamples.FunctionalTests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAD\test\FunctionalTests\Microsoft.AspNetCore.Authentication.AzureAD.FunctionalTests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAppServicesIntegration\test\Microsoft.AspNetCore.AzureAppServicesIntegration.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Abstractions\test\Microsoft.AspNetCore.DataProtection.Abstractions.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\AzureKeyVault\test\Microsoft.AspNetCore.DataProtection.AzureKeyVault.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\AzureStorage\test\Microsoft.AspNetCore.DataProtection.AzureStorage.Tests.csproj" />
@@ -24,10 +21,7 @@
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\DataProtection\test\Microsoft.AspNetCore.DataProtection.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\Extensions\test\Microsoft.AspNetCore.DataProtection.Extensions.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DataProtection\StackExchangeRedis\test\Microsoft.AspNetCore.DataProtection.StackExchangeRedis.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.FunctionalTests\Microsoft.AspNetCore.FunctionalTests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.Tests\Microsoft.AspNetCore.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Features\JsonPatch\test\Microsoft.AspNetCore.JsonPatch.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Framework\test\Microsoft.AspNetCore.App.UnitTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\Hosting\test\Microsoft.AspNetCore.Hosting.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\test\FunctionalTests\Microsoft.AspNetCore.Hosting.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Hosting\TestHost\test\Microsoft.AspNetCore.TestHost.Tests.csproj" />
@@ -67,9 +61,33 @@
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Middleware\StaticFiles\test\UnitTests\Microsoft.AspNetCore.StaticFiles.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Middleware\WebSockets\test\ConformanceTests\Microsoft.AspNetCore.WebSockets.ConformanceTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Middleware\WebSockets\test\UnitTests\Microsoft.AspNetCore.WebSockets.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\MusicStore\test\MusicStore.E2ETests\MusicStore.E2ETests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Mvc\test\Microsoft.AspNetCore.Mvc.FunctionalTests\Microsoft.AspNetCore.Mvc.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Mvc\test\Microsoft.AspNetCore.Mvc.IntegrationTests\Microsoft.AspNetCore.Mvc.IntegrationTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Shared\test\Shared.Tests\Microsoft.AspNetCore.Shared.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\clients\csharp\Client\test\FunctionalTests\Microsoft.AspNetCore.SignalR.Client.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\clients\csharp\Client\test\UnitTests\Microsoft.AspNetCore.SignalR.Client.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\common\Http.Connections\test\Microsoft.AspNetCore.Http.Connections.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\common\SignalR.Common\test\Microsoft.AspNetCore.SignalR.Common.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\server\SignalR\test\Microsoft.AspNetCore.SignalR.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\server\StackExchangeRedis\test\Microsoft.AspNetCore.SignalR.StackExchangeRedis.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\dotnet-user-secrets\test\dotnet-user-secrets.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\dotnet-watch\test\dotnet-watch.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\FirstRunCertGenerator\test\Microsoft.AspNetCore.DeveloperCertificates.XPlat.Tests.csproj" />
+    -->    
+    
+    
+    <!-- skipped (build errors needs investigation)
+
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\AuthSamples\test\AuthSamples.FunctionalTests\AuthSamples.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAD\test\FunctionalTests\Microsoft.AspNetCore.Authentication.AzureAD.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Azure\AzureAppServicesIntegration\test\Microsoft.AspNetCore.AzureAppServicesIntegration.Tests.csproj" />
+
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SiteExtensions\Microsoft.Web.Xdt.Extensions\tests\Microsoft.Web.Xdt.Extensions.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SiteExtensions\LoggingAggregate\test\Microsoft.AspNetCore.AzureAppServices.SiteExtension.Tests\Microsoft.AspNetCore.AzureAppServices.SiteExtension.Tests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\clients\ts\FunctionalTests\FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Mvc\test\Microsoft.AspNetCore.Mvc.FunctionalTests\Microsoft.AspNetCore.Mvc.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Framework\test\Microsoft.AspNetCore.App.UnitTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\test\Interop.FunctionalTests\Interop.FunctionalTests.csproj" />
+
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\HttpSys\test\FunctionalTests\Microsoft.AspNetCore.Server.HttpSys.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\HttpSys\test\Tests\Microsoft.AspNetCore.Server.HttpSys.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\IIS\IIS\test\Common.Tests\Common.Tests.csproj" />
@@ -82,30 +100,17 @@
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\Core\test\Microsoft.AspNetCore.Server.Kestrel.Core.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\Kestrel\test\Microsoft.AspNetCore.Server.Kestrel.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\test\InMemory.FunctionalTests\InMemory.FunctionalTests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\test\Interop.FunctionalTests\Interop.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\test\Libuv.BindTests\Libuv.BindTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\test\Libuv.FunctionalTests\Libuv.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\test\Sockets.BindTests\Sockets.BindTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\test\Sockets.FunctionalTests\Sockets.FunctionalTests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\Kestrel\Transport.Libuv\test\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Tests.csproj" />
       <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Servers\test\FunctionalTests\ServerComparison.FunctionalTests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Shared\test\Shared.Tests\Microsoft.AspNetCore.Shared.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\clients\csharp\Client\test\FunctionalTests\Microsoft.AspNetCore.SignalR.Client.FunctionalTests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\clients\csharp\Client\test\UnitTests\Microsoft.AspNetCore.SignalR.Client.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\clients\ts\FunctionalTests\FunctionalTests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\common\Http.Connections\test\Microsoft.AspNetCore.Http.Connections.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\common\SignalR.Common\test\Microsoft.AspNetCore.SignalR.Common.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\server\SignalR\test\Microsoft.AspNetCore.SignalR.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SignalR\server\StackExchangeRedis\test\Microsoft.AspNetCore.SignalR.StackExchangeRedis.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SiteExtensions\LoggingAggregate\test\Microsoft.AspNetCore.AzureAppServices.SiteExtension.Tests\Microsoft.AspNetCore.AzureAppServices.SiteExtension.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\SiteExtensions\Microsoft.Web.Xdt.Extensions\tests\Microsoft.Web.Xdt.Extensions.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\dotnet-user-secrets\test\dotnet-user-secrets.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\dotnet-watch\test\dotnet-watch.Tests.csproj" />
-      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\Tools\FirstRunCertGenerator\test\Microsoft.AspNetCore.DeveloperCertificates.XPlat.Tests.csproj" />
 
-    -->    
-    
-    <!-- skipped (needs investigation)
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\MusicStore\test\MusicStore.E2ETests\MusicStore.E2ETests.csproj" />
+
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.FunctionalTests\Microsoft.AspNetCore.FunctionalTests.csproj" />
+      <ProjectsToTest Include="$(MSBuildThisFileDirectory)..\src\DefaultBuilder\test\Microsoft.AspNetCore.Tests\Microsoft.AspNetCore.Tests.csproj" />
 
     -->
     <MSBuild Projects="@(ProjectsToTest)"
