@@ -76,7 +76,7 @@ namespace Microsoft.DotNet.Watcher.Tools.Tests
             );
         }
 
-        [Fact]
+        [Fact(Skip = "https://github.com/aspnet/AspNetCore/issues/6768")]
         public async Task SingleTfm()
         {
             _tempDir
